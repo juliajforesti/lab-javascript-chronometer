@@ -81,7 +81,7 @@ function clearClock() {
   secDec.innerHTML = '0';
   secUni.innerHTML = '0';
   milDec.innerHTML = '0';
-  minUni.innerHTML = '0';
+  milUni.innerHTML = '0';
 }
 
 // Start/Stop Button

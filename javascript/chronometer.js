@@ -29,7 +29,8 @@ class Chronometer {
     clearInterval(this.intervalId)
   }
   resetClick() {
-    this.currentTime = 0;
+    return this.currentTime = 0;
+
   }
   splitClick() {
     return this.twoDigitsNumber(this.getMinutes()) + ":" + 
